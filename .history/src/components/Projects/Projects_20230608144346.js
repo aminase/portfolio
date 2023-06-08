@@ -43,6 +43,7 @@ const Projects = () => (
               <ExternalLinks href={source}>Source Code</ExternalLinks>
             </UtilityList>
           </BlogCard>
+          {/* <div>{project.description}</div> */}
         </>
       ))}
     </GridContainer>

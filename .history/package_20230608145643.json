@@ -5,8 +5,6 @@
   "private": true,
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider next",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "next build && next export",
     "start": "react-scripts --openssl-legacy-provider start"
   },

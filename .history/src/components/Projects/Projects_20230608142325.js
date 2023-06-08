@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {
   BlogCard,
   CardInfo,
@@ -19,9 +18,9 @@ import { projects } from '../../constants/constants'
 const Projects = () => (
   <Section nopadding id='projects'>
     <SectionDivider />
-    <SectionTitle>Projects</SectionTitle>
+    <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {projects.map(({ id, image, title, description, tags, source, visit }) => (
+      {projects.map(({ id, image, title, description, tags, source }) => (
         <>
           <BlogCard key={id}>
             {title}
