@@ -78,7 +78,7 @@ export const ListTitle = styled.h4`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.02em;
     margin-bottom: 4px;

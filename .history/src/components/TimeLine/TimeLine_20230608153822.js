@@ -56,6 +56,7 @@ const Timeline = () => {
   return (
     <Section id='about'>
       <SectionDivider />
+
       <SectionTitle>About me</SectionTitle>
       <SectionText>
         Software developer with over four years of experience in developing, testing, and

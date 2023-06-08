@@ -24,6 +24,7 @@ const education = [
 
 const Acomplishments = () => (
   <Section>
+    <SectionDivider />
     <SectionTitle>Education</SectionTitle>
     <Boxes>
       {education.map((card, index) => (
