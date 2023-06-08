@@ -28,11 +28,11 @@ export const Box = styled.div`
   height: 184px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
-    height: 240px;
+    height: 210px;
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 175px;
+    height: 135px;
     padding: 16px;
   }
 

@@ -11,28 +11,30 @@ export const projects = [
   {
     title: 'E-Commerce',
     description:
-      'E-commerce shopping cart application developed with ReactJS and ContextAPI for state managment. This saves prop drilling with useState and is easier to manage state on lager projects.',
+      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
     image: '/images/2.png',
-    tags: ['ReactJS', 'ContextAPI', 'TailwindCSS'],
-    source: 'https://github.com/aminase/eCommerce-ContextAPI',
+    tags: ['React', 'JavaScript'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
     id: 1,
   },
   {
     title: 'MediaDrive App',
     description:
       'Electron application with implemented authentication and authorization that allows transfer of large video chunks. Application developed using ReactJS, TypeScript, TailwindCSS, Redux-Saga.',
-    image: '/images/3.png',
+    image: '/images/3.jpg',
     tags: ['ReactJS', 'Redux-Saga', 'TypeScript', 'TailwindCSS'],
     source: 'https://github.com/aminase/mediadrive',
     id: 2,
   },
   {
-    title: 'Meal App',
+    title: 'Unichat',
     description:
-      'This is a code repository for the meal app. Search by letter, ingredient or meal name. By clicking on certain mail, mail details are shown with preparing instructions.',
-    image: '/images/4.png',
-    tags: ['Vue', 'Vuex', 'TailwindCSS'],
-    source: 'https://github.com/aminase/meal-app-vue',
+      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
+    image: '/images/4.jpg',
+    tags: ['React', 'ChatEngine', 'Firebase'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
     id: 3,
   },
 ]

@@ -25,12 +25,15 @@ const Footer = () => {
           <LinkTitle>Email</LinkTitle>
           <LinkItem href='mailto:aminase991@gmail.com'>aminase991@gmail.com</LinkItem>
         </LinkColumn>
-        <LinkColumn>
-          <SocialIconsContainer>
-            <SocialIconsList />
-          </SocialIconsContainer>
-        </LinkColumn>
+        <SocialContainer>
+          <SocialIconsList />
+        </SocialContainer>
       </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>Pillars..</Slogan>
+        </CompanyContainer>
+      </SocialIconsContainer>
     </FooterWrapper>
   )
 }

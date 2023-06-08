@@ -53,9 +53,9 @@ export const SocialIconsContainer = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
+    width: 20px;
     display: flex;
-    width: 100%;
-
+    width: 50%;
     flex-direction: row;
   }
 `
