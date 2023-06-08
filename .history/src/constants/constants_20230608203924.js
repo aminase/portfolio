@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Meal App',
     description:
-      'This is a code repository for the meal app. Search by letter, ingredient or meal name is implemented. By clicking on certain meail, meail details are shown with preparing instructions.',
+      'This is a code repository for the meal app. Search by letter, ingredient or meal name is implemented. By clicking on certain mail, mail details are shown with preparing instructions.',
     image: 'images/4.png',
     tags: ['Vue', 'Vuex', 'TailwindCSS'],
     source: 'https://github.com/aminase/meal-app-vue',
@@ -41,7 +41,7 @@ export const TimeLineData = [
   { year: 2018, text: 'Started my journey working as a QA analyst' },
   {
     year: 2019,
-    text: 'Brushing RDB/MySQL skills and getting more knowledge of crypto payments and exch',
+    text: 'Brushing RDB/MySQL skills and getting more knowledge of crypto payments and exch ',
   },
   {
     year: 2020,
@@ -51,6 +51,6 @@ export const TimeLineData = [
   {
     year: 2023,
     text:
-      "Performing bioinformatics analysis using Python, web development using JavaScript's ecosystem ME(R/V)N(Mongo, Express, React/Vue, Node)",
+      "Performing bioinformatics analysis using Python, web development using React's ecosystem ME(R/V)N(Mongo, Express, React/Vue, Node)",
   },
 ]
