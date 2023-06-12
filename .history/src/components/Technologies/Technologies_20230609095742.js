@@ -1,11 +1,12 @@
 import React from 'react'
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di'
+import { DiFirebase, DiReact, DiTerminalBadge } from 'react-icons/di'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents'
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles'
 
 const Technologies = () => (
   <Section id='tech'>
     <SectionDivider />
+    <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I have worked with a range of technologies in the web development world. From backend to
@@ -13,7 +14,7 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <DiReact size='3rem' />
         <ListContainer>
           <ListTitle>Frontend</ListTitle>
           <ListParagraph>
@@ -31,11 +32,11 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <DiTerminalBadge size='3rem' />
         <ListContainer>
           <ListTitle>QA testing</ListTitle>
           <ListParagraph>
-            Experience with <br /> React.js
+            Experience with <br /> Cypress
           </ListParagraph>
         </ListContainer>
       </ListItem>
