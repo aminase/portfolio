@@ -1,7 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import { DiCssdeck } from 'react-icons/di'
+import { SocialIconsContainer } from '../Footer/FooterStyles'
 import SocialIconsList from '../SocialIconsList'
+import logo from './log.ico'
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles'
 
@@ -12,7 +15,7 @@ const Header = () => (
         <div
           style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}
         >
-          <DiCssdeck size='3rem' /> <span>Portfolio</span>
+          <img src={logo} size='3rem' /> <span>Portfolio</span>
         </div>
       </Link>
     </Div1>
