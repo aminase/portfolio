@@ -48,6 +48,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta name='twitter:image' content='favicon.ico?' />
         <meta name='twitter:card' content='summary_large_image' />
+
         <meta property='og:locale' content='en_GB' />
       </Head>
       <Theme>

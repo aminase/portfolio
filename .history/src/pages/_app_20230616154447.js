@@ -21,33 +21,15 @@ export default function App({ Component, pageProps }) {
         <meta property='og:type' content='website' />
         <meta content='summary_large_image' name='twitter:card'></meta>
         <meta content='/favicon.png' property='og:image'></meta>
-
-        {/*<!-- Google / Search Engine Tags -->*/}
-        <meta itemprop='name' content='Amina | Portfolio' />
+        <meta content='Amina | Portfolio' property='twitter:title'></meta>
         <meta
-          itemprop='description'
           content="Software developers and bioinformaticians's porftolio"
-        />
-        <meta itemprop='image' content='favicon.ico?' />
-
-        {/*<!-- Facebook Meta Tags -->*/}
-        <meta property='og:title' content='Amina | Portfolio' />
+          property='twitter:description'
+        ></meta>
         <meta
           property='og:description'
-          content="Software developers and bioinformaticians's porftolio"
+          content='More about one software developer and bioinformatician'
         />
-        <meta property='og:image' content='favicon.ico?' />
-        <meta property='og:url' content='https://aminase.github.io/portfolio/' />
-        <meta property='og:type' content='website' />
-
-        {/*<!-- Twitter Meta Tags -->*/}
-        <meta name='twitter:title' content='Amina | Portfolio' />
-        <meta
-          name='twitter:description'
-          ccontent="Software developers and bioinformaticians's porftolio"
-        />
-        <meta name='twitter:image' content='favicon.ico?' />
-        <meta name='twitter:card' content='summary_large_image' />
         <meta property='og:locale' content='en_GB' />
       </Head>
       <Theme>

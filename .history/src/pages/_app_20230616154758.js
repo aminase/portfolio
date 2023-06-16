@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }) {
           itemprop='description'
           content="Software developers and bioinformaticians's porftolio"
         />
-        <meta itemprop='image' content='favicon.ico?' />
+        <meta itemprop='image' content={props.image || defaults.image} />
 
         {/*<!-- Facebook Meta Tags -->*/}
         <meta property='og:title' content='Amina | Portfolio' />
@@ -36,8 +36,8 @@ export default function App({ Component, pageProps }) {
           property='og:description'
           content="Software developers and bioinformaticians's porftolio"
         />
-        <meta property='og:image' content='favicon.ico?' />
-        <meta property='og:url' content='https://aminase.github.io/portfolio/' />
+        <meta property='og:image' content={props.image || defaults.image} />
+        <meta property='og:url' content={props.title || defaults.title} />
         <meta property='og:type' content='website' />
 
         {/*<!-- Twitter Meta Tags -->*/}
@@ -46,8 +46,18 @@ export default function App({ Component, pageProps }) {
           name='twitter:description'
           ccontent="Software developers and bioinformaticians's porftolio"
         />
-        <meta name='twitter:image' content='favicon.ico?' />
+        <meta name='twitter:image' content={props.image || defaults.image} />
         <meta name='twitter:card' content='summary_large_image' />
+
+        <meta content='Amina | Portfolio' property='twitter:title'></meta>
+        <meta
+          content="Software developers and bioinformaticians's porftolio"
+          property='twitter:description'
+        ></meta>
+        <meta
+          property='og:description'
+          content='More about one software developer and bioinformatician'
+        />
         <meta property='og:locale' content='en_GB' />
       </Head>
       <Theme>
