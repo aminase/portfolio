@@ -16,11 +16,12 @@ export default function App({ Component, pageProps }) {
         />
         <meta charSet='utf-8' />
         <meta content="software developer's portfolio" name='description'></meta>
-        <meta content='summary_large_image' name='twitter:card'></meta>
+                <meta content='summary_large_image' name='twitter:card'></meta>
+
         <meta property='og:title' content="Amina\'s portfolio: Everything You Need to Know" />
         <meta property='og:url' content='https://aminase.github.io/portfolio/' />
         <meta property='og:type' content='website' />
-        <meta property='og:image' content='/https://aminase.github.io/portfolio/favicon.ico'></meta>
+        <meta property='og:image'content='/https://aminase.github.io/portfolio/favicon.ico></meta>
 
         {/*<!-- Google / Search Engine Tags -->*/}
         <meta itemprop='name' content='Amina | Portfolio' />
