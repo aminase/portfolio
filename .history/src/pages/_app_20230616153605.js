@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Portfolio | Amina</title>
-        <link rel='shortcut icon' type='image/x-icon' sizes='16x16' href='favicon.ico?' />
+ <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
         <meta charSet='utf-8' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <link rel='icon' type='image/png' href='/favicon.png' />
