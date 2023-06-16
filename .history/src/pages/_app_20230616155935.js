@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }) {
           itemprop='description'
           content="Software developers and bioinformaticians's porftolio"
         />
-        <meta itemprop='image' content='https://aminase.github.io/portfolio/favicon.ico' />
+        <meta itemprop='image' content='favicon.ico?' />
 
         {/*<!-- Facebook Meta Tags -->*/}
         <meta property='og:title' content='Amina | Portfolio' />
@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }) {
           property='og:description'
           content="Software developers and bioinformaticians's porftolio"
         />
-        <meta property='og:image' content='https://aminase.github.io/portfolio/favicon.ico' />
+        <meta property='og:image' content='favicon.ico?' />
         <meta property='og:url' content='https://aminase.github.io/portfolio/' />
         <meta property='og:type' content='website' />
 
@@ -46,7 +46,7 @@ export default function App({ Component, pageProps }) {
           name='twitter:description'
           ccontent="Software developers and bioinformaticians's porftolio"
         />
-        <meta name='twitter:image' content='https://aminase.github.io/portfolio/favicon.ico' />
+        <meta name='twitter:image' content='favicon.ico?' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta property='og:locale' content='en_GB' />
         <meta property='og:image:alt' content='About Amina' />
