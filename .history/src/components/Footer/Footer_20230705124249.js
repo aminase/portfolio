@@ -2,11 +2,13 @@ import React from 'react'
 import SocialIconsList from '../SocialIconsList'
 
 import {
+  CompanyContainer,
   FooterWrapper,
   LinkColumn,
   LinkItem,
   LinkList,
   LinkTitle,
+  Slogan,
   CopyRight,
   SocialIconsContainer,
 } from './FooterStyles'
@@ -25,7 +27,7 @@ const Footer = () => {
           </SocialIconsContainer>
         </LinkColumn>
       </LinkList>
-      <CopyRight>Copyright 2023 © All rights Reserved. aminase </CopyRight>
+      <CopyRight>Copyright 2023 © All rights Reserved</CopyRight>
     </FooterWrapper>
   )
 }

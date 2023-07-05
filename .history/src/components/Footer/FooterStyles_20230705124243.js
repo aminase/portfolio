@@ -3,12 +3,12 @@ import styled from 'styled-components'
 export const FooterWrapper = styled.section`
   width: calc(100vw - 96px);
   max-width: 1040px;
-  padding: 2rem 48px 20px;
+  padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
 
   @media ${props => props.theme.breakpoints.sm} {
-    padding: 0 16px 8px;
+    padding: 0 16px 48px;
     width: calc(100vw - 32px);
   }
 `
@@ -115,6 +115,7 @@ export const LinkTitle = styled.h4`
   line-height: 24px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 16px;
 
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 10px;
@@ -123,11 +124,8 @@ export const LinkTitle = styled.h4`
   }
 `
 export const CopyRight = styled.div`
-  font-size: 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  @media ${props => props.theme.breakpoints.sm} {
-    font-size: 5px;
-  }
+  flex-direction: column;
+  max-width: 220px;
+  width: 100%;
 `

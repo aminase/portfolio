@@ -3,12 +3,12 @@ import styled from 'styled-components'
 export const FooterWrapper = styled.section`
   width: calc(100vw - 96px);
   max-width: 1040px;
-  padding: 2rem 48px 20px;
+  padding: 2rem 48px 5px;
   margin: 1rem auto;
   box-sizing: content-box;
 
   @media ${props => props.theme.breakpoints.sm} {
-    padding: 0 16px 8px;
+    padding: 0 16px 48px;
     width: calc(100vw - 32px);
   }
 `
@@ -128,6 +128,6 @@ export const CopyRight = styled.div`
   align-items: center;
   justify-content: center;
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 5px;
+    font-size: 6px;
   }
 `
