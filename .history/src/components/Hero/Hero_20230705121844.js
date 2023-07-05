@@ -14,7 +14,7 @@ const Hero = props => (
       <SectionText>
         I am Amina. Software developer with over four years of experience in developing, testing,
         and maintaining web applications. I am keen to combine science and technology by employing
-        bioinformatics analysis. Aside from technical skills, I am a great communicator and a team
+        bioinformatics analysis. Aside from technical skills, I am a great communicator and team
         player.
       </SectionText>
       {/* <Button onClick={() => (window.location = 'www.google.com')}> Learn More</Button> */}
