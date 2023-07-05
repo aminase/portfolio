@@ -26,6 +26,7 @@ const Footer = () => {
             <SocialIconsList />
           </SocialIconsContainer>
         </LinkColumn>
+        <LinkColumn></LinkColumn>
       </LinkList>
     </FooterWrapper>
   )
