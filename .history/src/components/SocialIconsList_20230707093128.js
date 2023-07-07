@@ -1,7 +1,6 @@
 import React from 'react'
 import { SocialIcons } from '../components/Header/HeaderStyles'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import { FaResearchgate } from 'react-icons/fa'
 
 const SocialIconsList = () => {
   return (
@@ -12,8 +11,8 @@ const SocialIconsList = () => {
       <SocialIcons href='https://www.linkedin.com/in/amina-selimovic-50990918a/'>
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://www.researchgate.net/profile/Amina-Selimovic-4'>
-        <FaResearchgate size='3rem' />
+      <SocialIcons href='https://www.linkedin.com/in/amina-selimovic-50990918a/'>
+        <AiFillLinkedin size='3rem' />
       </SocialIcons>
     </>
   )

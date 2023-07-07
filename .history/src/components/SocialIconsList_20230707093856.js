@@ -12,7 +12,7 @@ const SocialIconsList = () => {
       <SocialIcons href='https://www.linkedin.com/in/amina-selimovic-50990918a/'>
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://www.researchgate.net/profile/Amina-Selimovic-4'>
+      <SocialIcons href='https://www.linkedin.com/in/amina-selimovic-50990918a/'>
         <FaResearchgate size='3rem' />
       </SocialIcons>
     </>
