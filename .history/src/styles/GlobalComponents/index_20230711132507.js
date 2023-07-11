@@ -12,12 +12,12 @@ export const Section = styled.section`
   grid-template-columns: 1fr 1fr;
 
   @media ${props => props.theme.breakpoints.md} {
-    padding: 4px 28px 0;
+    padding: 24px 28px 0;
     flex-direction: column;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    padding: ${props => (props.nopadding ? '0' : '6px 16px 0')};
+    padding: ${props => (props.nopadding ? '0' : '16px 16px 0')};
 
     width: calc(100vw - 32px);
     flex-direction: column;
@@ -63,13 +63,13 @@ export const SectionText = styled.p`
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 670px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 32px;
     padding-bottom: 24px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
   }

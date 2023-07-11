@@ -17,7 +17,7 @@ export const Section = styled.section`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    padding: ${props => (props.nopadding ? '0' : '6px 16px 0')};
+    padding: ${props => (props.nopadding ? '0' : '16px 16px 0')};
 
     width: calc(100vw - 32px);
     flex-direction: column;
@@ -63,13 +63,13 @@ export const SectionText = styled.p`
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 670px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 32px;
     padding-bottom: 24px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
   }
