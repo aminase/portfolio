@@ -27,7 +27,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Backend</ListTitle>
           <ListParagraph>
-            Experience with <br /> Python, Node.js, SQL, NoSQL
+            Experience with <br /> Python, Node.js, Java, SQL, NoSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -17,7 +17,7 @@ const Hero = props => (
         previous experience involved three years of research work in the field of molecular biology,
         with a focus on gene silencing. Today, it has given me a solid basis and a distinctive
         viewpoint to combine science and technology by employing bioinformatics analysis using
-        Python. Also, I am a great communicator and a team player.
+        Python.
       </SectionText>
       {/* <Button onClick={() => (window.location = 'www.google.com')}> Learn More</Button> */}
     </LeftSection>

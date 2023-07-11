@@ -55,6 +55,6 @@ export const TimeLineData = [
   {
     year: 2023,
     text:
-      'Doing bioinformatics analysis using Python and web development with ME(R/V)N(MongoDB, Express.js, React.js/ Vue.js, Node.js)',
+      'Doing bioinformatics analysis using Python and web development with ME(R/V)N(MongoDB, Express.js, React.js/Vue.js, Node)',
   },
 ]

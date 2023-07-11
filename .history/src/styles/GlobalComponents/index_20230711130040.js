@@ -12,7 +12,7 @@ export const Section = styled.section`
   grid-template-columns: 1fr 1fr;
 
   @media ${props => props.theme.breakpoints.md} {
-    padding: 24px 28px 0;
+    padding: 24px 48px 0;
     flex-direction: column;
   }
 
@@ -33,13 +33,13 @@ export const SectionTitle = styled.h2`
   background: linear-gradient(121.57deg, #ffffff 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: ${props => (props.main ? '18px 0 16px' : '0')};
+  padding: ${props => (props.main ? '58px 0 16px' : '0')};
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: ${props => (props.main ? '34px' : '26px')};
-    line-height: ${props => (props.main ? '26px' : '48px')};
+    line-height: ${props => (props.main ? '56px' : '48px')};
     margin-bottom: 12px;
-    padding: ${props => (props.main ? '10px 0 12px' : '0')};
+    padding: ${props => (props.main ? '40px 0 12px' : '0')};
   }
 
   @media ${props => props.theme.breakpoints.sm} {
@@ -63,7 +63,7 @@ export const SectionText = styled.p`
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 670px;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 32px;
     padding-bottom: 24px;
   }

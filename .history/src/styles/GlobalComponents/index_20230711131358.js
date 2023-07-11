@@ -39,7 +39,7 @@ export const SectionTitle = styled.h2`
     font-size: ${props => (props.main ? '34px' : '26px')};
     line-height: ${props => (props.main ? '26px' : '48px')};
     margin-bottom: 12px;
-    padding: ${props => (props.main ? '10px 0 12px' : '0')};
+    padding: ${props => (props.main ? '40px 0 12px' : '0')};
   }
 
   @media ${props => props.theme.breakpoints.sm} {
@@ -63,7 +63,7 @@ export const SectionText = styled.p`
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 670px;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 32px;
     padding-bottom: 24px;
   }
