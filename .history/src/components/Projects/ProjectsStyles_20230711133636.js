@@ -90,7 +90,7 @@ export const ExternalLinks = styled.a`
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: #9cc9e3;
+    background: #801414;
   }
 `
 
