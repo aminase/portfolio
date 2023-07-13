@@ -2,14 +2,12 @@ import React from 'react'
 import SocialIconsList from '../SocialIconsList'
 
 import {
-  CompanyContainer,
   FooterWrapper,
   LinkColumn,
   LinkItem,
   LinkList,
   LinkTitle,
-  Slogan,
-  SocialContainer,
+  CopyRight,
   SocialIconsContainer,
 } from './FooterStyles'
 
@@ -17,20 +15,17 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
-        <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel:111-111-1111'>111-111-1111</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href='mailto:aminase991@gmail.com'>aminase991@gmail.com</LinkItem>
-        </LinkColumn>
+        {/* <LinkColumn> */}
+        {/* <LinkTitle>Email</LinkTitle> */}
+        {/* <LinkItem href='mailto:aminase991@gmail.com'>aminase991@gmail.com</LinkItem> */}
+        {/* </LinkColumn> */}
         <LinkColumn>
           <SocialIconsContainer>
             <SocialIconsList />
           </SocialIconsContainer>
         </LinkColumn>
       </LinkList>
+      <CopyRight>Copyright 2023 © All rights Reserved. aminase </CopyRight>
     </FooterWrapper>
   )
 }
