@@ -24,9 +24,9 @@ export const Section = styled.section`
   }
 `
 export const Animation = styled.div`
-  padding: 80px 0 0 25px;
+  padding: 75px 0 0 25px;
   @media ${props => props.theme.breakpoints.md} {
-    padding: 120px 0 0 25px;
+    padding: 150px 0 0 25px;
   }
 `
 export const SectionTitle = styled.h2`
