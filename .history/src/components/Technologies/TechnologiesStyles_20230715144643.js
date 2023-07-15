@@ -39,18 +39,18 @@ export const List = styled.ul`
   margin: 3rem 0;
 
   @media ${props => props.theme.breakpoints.lg} {
-    margin: 64px 0;
+    margin: 14px 0;
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    margin: 64px 0;
+    margin: 14px 0;
     gap: 24px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
-    margin: 32px 0;
+    margin: 12px 0;
   }
 `
 
@@ -78,7 +78,7 @@ export const ListTitle = styled.h4`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     letter-spacing: 0.02em;
     margin-bottom: 4px;

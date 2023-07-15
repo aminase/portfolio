@@ -10,17 +10,14 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: ${props => (props.grid ? '0' : '35px')};
 
   @media ${props => props.theme.breakpoints.md} {
     padding: 4px 28px 0;
     flex-direction: column;
-    margin-bottom: 18px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
     padding: ${props => (props.nopadding ? '0' : '6px 16px 0')};
-    margin-bottom: 12px;
 
     width: calc(100vw - 32px);
     flex-direction: column;

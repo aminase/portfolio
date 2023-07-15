@@ -14,7 +14,7 @@ export const CarouselContainer = styled.ul`
     margin-left: 0px;
   }
 
-  // margin-bottom: 80px;
+  margin-bottom: 80px;
 
   //remove scrollbar
   scrollbar-width: none;
@@ -42,6 +42,7 @@ export const CarouselItem = styled.div`
   background: #0f1624;
   border-radius: 3px;
   max-width: 196px;
+  text-align: start;
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 124px;
@@ -104,7 +105,6 @@ export const CarouselItemText = styled.p`
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
   padding-right: 16px;
-  text-align: start;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 12px;
