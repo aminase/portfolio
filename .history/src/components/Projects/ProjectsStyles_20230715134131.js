@@ -41,15 +41,15 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: white;
-  padding: 10px;
+  color: #9cc9e3;
+  padding: 0.5rem 0;
   font-size: ${props => (props.title ? '3rem' : '2rem')};
 `
 
 export const Hr = styled.hr`
   width: 50px;
   height: 3px;
-  margin: 10px auto;
+  padding: 10px auto;
   border: 0;
   background: #d0bb57;
 `
@@ -66,7 +66,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 10px 50px;
+  padding: 0 50px;
   color: rgba(255, 255, 255, 0.5);
   font-style: 2rem;
   line-height: 24px;
