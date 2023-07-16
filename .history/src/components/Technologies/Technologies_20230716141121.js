@@ -9,8 +9,8 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a range of technologies in the web development world. From backend to
-      frontend.
+      I have been able to create user interfaces that are tested, responsive, and aesthetically
+      pleasing by utilizing the most recent web technologies and JavaScript frameworks.
     </SectionText>
     <List>
       <ListItem>
@@ -18,7 +18,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Frontend</ListTitle>
           <ListParagraph>
-            Experience with <br /> JavaScript, React.js, ReactNative, Vue.js
+            Experience with <br /> JavaScript, React.js, Vue.js, ReactNative
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,7 +27,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Backend</ListTitle>
           <ListParagraph>
-            Experience with <br /> Python, Node.js, Java, SQL, NoSQL
+            Experience with <br /> Python, Node.js, SQL, NoSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>

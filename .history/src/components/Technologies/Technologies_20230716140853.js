@@ -9,8 +9,8 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have been able to create user interfaces that are testable, responsive, and aesthetically
-      pleasing by utilizing the most recent web technologies and JavaScript frameworks.
+      The use of the latest web technologies and JavaScript frameworks has allowed me to build
+      testable, responsive and aesthetic user interfaces.
     </SectionText>
     <List>
       <ListItem>
