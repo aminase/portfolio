@@ -4,7 +4,7 @@ export const projects = [
     description:
       'Using ReactJS, Redux-Saga, TypeScript and styled components movie db is created - from start to finish. User can search for movie or TV show and get their details.',
     image: 'images/1.png',
-    tags: ['ReactJS', 'Redux-Saga', 'TypeScript'],
+    tags: ['React.js', 'Redux-Saga', 'TypeScript'],
     source: 'https://github.com/aminase/movie-db-app',
     alt: "Movie DB application's preview",
     id: 0,
@@ -14,7 +14,7 @@ export const projects = [
     description:
       'E-commerce shopping cart application developed with ReactJS and ContextAPI for state management. This saves prop drilling with useState and is easier to manage state on larger projects.',
     image: 'images/2.png',
-    tags: ['ReactJS', 'ContextAPI', 'TailwindCSS'],
+    tags: ['React.js', 'ContextAPI', 'TailwindCSS'],
     source: 'https://github.com/aminase/eCommerce-ContextAPI',
     alt: "E-commerce application's preview",
     id: 1,
@@ -24,7 +24,7 @@ export const projects = [
     description:
       'Electron application with implemented authentication and authorization that allows transfer of large video chunks. Application developed using ReactJS, TypeScript, TailwindCSS, Redux-Saga.',
     image: 'images/3.png',
-    tags: ['ReactJS', 'Redux-Saga', 'TypeScript', 'TailwindCSS'],
+    tags: ['React.js', 'TypeScript', 'TailwindCSS'],
     source: 'https://github.com/aminase/mediadrive',
     alt: "MediaDrive application's preview",
     id: 2,

@@ -1,22 +1,22 @@
 export const projects = [
   {
-    title: 'Movie DB',
+    title: 'Movie App',
     description:
-      'Using ReactJS, Redux-Saga, TypeScript and styled components movie db is created - from start to finish. Application  is created using https://api.themoviedb.org/ - open source API. User can search for movie or TV show and get their details.',
+      'Using ReactJS, Redux-Saga, TypeScript and styled components movie db is created - from start to finish. User can search for movie or TV show and get their details.',
     image: 'images/1.png',
-    tags: ['ReactJS', 'Redux-Saga', 'TypeScript'],
+    tags: ['React.js', 'Redux-Saga', 'TypeScript'],
     source: 'https://github.com/aminase/movie-db-app',
     alt: "Movie DB application's preview",
     id: 0,
   },
   {
-    title: 'E-Commerce',
+    title: 'E-Commerce App',
     description:
       'E-commerce shopping cart application developed with ReactJS and ContextAPI for state management. This saves prop drilling with useState and is easier to manage state on larger projects.',
     image: 'images/2.png',
-    tags: ['ReactJS', 'ContextAPI', 'TailwindCSS'],
+    tags: ['React.js', 'ContextAPI', 'TailwindCSS'],
     source: 'https://github.com/aminase/eCommerce-ContextAPI',
-    alt: "Movie DB application's preview",
+    alt: "E-commerce application's preview",
     id: 1,
   },
   {
@@ -24,8 +24,9 @@ export const projects = [
     description:
       'Electron application with implemented authentication and authorization that allows transfer of large video chunks. Application developed using ReactJS, TypeScript, TailwindCSS, Redux-Saga.',
     image: 'images/3.png',
-    tags: ['ReactJS', 'Redux-Saga', 'TypeScript', 'TailwindCSS'],
+    tags: ['React.js', 'TypeScript', 'TailwindCSS'],
     source: 'https://github.com/aminase/mediadrive',
+    alt: "MediaDrive application's preview",
     id: 2,
   },
   {
@@ -35,6 +36,7 @@ export const projects = [
     image: 'images/4.png',
     tags: ['Vue', 'Vuex', 'TailwindCSS'],
     source: 'https://github.com/aminase/meal-app-vue',
+    alt: "Meal application's preview",
     id: 3,
   },
 ]
@@ -52,7 +54,6 @@ export const TimeLineData = [
   { year: 2021, text: 'Work on various frontend project as well as mobile app using ReactNative' },
   {
     year: 2023,
-    text:
-      "Performing bioinformatics analysis using Python, web development using JavaScript's ecosystem ME(R/V)N(Mongo, Express, React/Vue, Node)",
+    text: 'Doing bioinformatics analysis using Python and web development with ME(R/V)N stack',
   },
 ]
