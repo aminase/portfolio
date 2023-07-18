@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
         <meta property='og:image' content='https://aminase.github.io/portfolio/favicon.ico'></meta>
 
         {/*<!-- Google / Search Engine Tags -->*/}
-        <meta itemprop='name' content='Amina Selimovic| Portfolio' />
+        <meta itemprop='name' content='Amina | Portfolio' />
         <meta itemprop='description' content='Software developers porftolio' />
         <meta itemprop='image' content='https://aminase.github.io/portfolio/favicon.ico' />
 
