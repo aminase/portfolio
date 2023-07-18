@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Portfolio | Amina Selimovic</title>
+        <title>Portfolio | Amina</title>
         <link rel='shortcut icon' type='image/x-icon' sizes='16x16' href='favicon.ico?' />
         <meta charSet='utf-8' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
