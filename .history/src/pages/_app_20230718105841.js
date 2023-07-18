@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
           rel='stylesheet'
         />
         <meta charSet='utf-8' />
-        <meta content="Software developer's portfolio" name='description'></meta>
+        <meta content="software developer's portfolio" name='description'></meta>
         <meta content='summary_large_image' name='twitter:card'></meta>
         <meta property='og:title' content='Portfolio | Amina Selimovic' />
         <meta property='og:url' content='https://aminase.github.io/portfolio/' />
@@ -28,14 +28,14 @@ export default function App({ Component, pageProps }) {
         <meta itemprop='image' content='https://aminase.github.io/portfolio/favicon.ico' />
 
         {/*<!-- Facebook Meta Tags -->*/}
-        <meta property='og:title' content='Portfolio | Amina' />
+        <meta property='og:title' content='Portfolio | Amina Selimovic' />
         <meta property='og:description' content="Software developers's porftolio" />
         <meta property='og:image' content='https://aminase.github.io/portfolio/favicon.ico' />
         <meta property='og:url' content='https://aminase.github.io/portfolio/' />
         <meta property='og:type' content='website' />
 
         {/*<!-- Twitter Meta Tags -->*/}
-        <meta name='twitter:title' content='Portfolio | Amina' />
+        <meta name='twitter:title' content='Portfolio | Amina Selimovic' />
         <meta name='twitter:description' ccontent="Software developer's porftolio" />
         <meta name='twitter:image' content='https://aminase.github.io/portfolio/favicon.ico' />
         <meta name='twitter:card' content='summary_large_image' />

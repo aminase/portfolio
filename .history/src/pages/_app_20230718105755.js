@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
           rel='stylesheet'
         />
         <meta charSet='utf-8' />
-        <meta content="Software developer's portfolio" name='description'></meta>
+        <meta content="software developer's portfolio" name='description'></meta>
         <meta content='summary_large_image' name='twitter:card'></meta>
         <meta property='og:title' content='Portfolio | Amina Selimovic' />
         <meta property='og:url' content='https://aminase.github.io/portfolio/' />
@@ -23,20 +23,23 @@ export default function App({ Component, pageProps }) {
         <meta property='og:image' content='https://aminase.github.io/portfolio/favicon.ico'></meta>
 
         {/*<!-- Google / Search Engine Tags -->*/}
-        <meta itemprop='name' content='Portfolio | Amina Selimovic' />
-        <meta itemprop='description' content="Software developer's porftolio" />
+        <meta itemprop='name' content='Amina Selimovic| Portfolio' />
+        <meta itemprop='description' content='Software developers porftolio' />
         <meta itemprop='image' content='https://aminase.github.io/portfolio/favicon.ico' />
 
         {/*<!-- Facebook Meta Tags -->*/}
-        <meta property='og:title' content='Portfolio | Amina' />
-        <meta property='og:description' content="Software developers's porftolio" />
+        <meta property='og:title' content='Portfolio | Amina Selimovic' />
+        <meta
+          property='og:description'
+          content="Software developers and bioinformaticians's porftolio"
+        />
         <meta property='og:image' content='https://aminase.github.io/portfolio/favicon.ico' />
         <meta property='og:url' content='https://aminase.github.io/portfolio/' />
         <meta property='og:type' content='website' />
 
         {/*<!-- Twitter Meta Tags -->*/}
-        <meta name='twitter:title' content='Portfolio | Amina' />
-        <meta name='twitter:description' ccontent="Software developer's porftolio" />
+        <meta name='twitter:title' content='Portfolio | Amina Selimovic' />
+        <meta name='twitter:description' ccontent='Software developers porftolio' />
         <meta name='twitter:image' content='https://aminase.github.io/portfolio/favicon.ico' />
         <meta name='twitter:card' content='summary_large_image' />
         <meta property='og:locale' content='en_GB' />
