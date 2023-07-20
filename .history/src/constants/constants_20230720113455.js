@@ -51,10 +51,7 @@ export const TimeLineData = [
     year: 2020,
     text: 'Continue my journey as a frontend developer using JavaScript/React.js framework',
   },
-  {
-    year: 2021,
-    text: 'Work on various frontend projects as well as mobile application using ReactNative',
-  },
+  { year: 2021, text: 'Work on various frontend projects as well as mobile app using ReactNative' },
   {
     year: 2023,
     text:
