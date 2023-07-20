@@ -54,7 +54,6 @@ export const TimeLineData = [
   { year: 2021, text: 'Work on various frontend projects as well as mobile app using ReactNative' },
   {
     year: 2023,
-    text:
-      'Work on software development leveraging the ME(R/V)N stack and Python-based bioinformatics analysis',
+    text: 'Doing bioinformatics analysis using Python and web development with ME(R/V)N stack',
   },
 ]

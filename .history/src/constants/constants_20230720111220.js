@@ -55,6 +55,6 @@ export const TimeLineData = [
   {
     year: 2023,
     text:
-      'Work on software development leveraging the ME(R/V)N stack and Python-based bioinformatics analysis',
+      'Continue to work bioinformatics analysis using Python and software development with ME(R/V)N stack',
   },
 ]

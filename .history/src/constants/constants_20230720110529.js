@@ -42,7 +42,7 @@ export const projects = [
 ]
 
 export const TimeLineData = [
-  { year: 2018, text: 'Started my journey working as a software QA analyst' },
+  { year: 2018, text: 'Started my journey working as a QA analyst' },
   {
     year: 2019,
     text: 'Brushing RDB/MySQL skills and getting more knowledge of crypto payments and exch',
@@ -51,10 +51,9 @@ export const TimeLineData = [
     year: 2020,
     text: 'Continue my journey as a frontend developer using JavaScript/React.js framework',
   },
-  { year: 2021, text: 'Work on various frontend projects as well as mobile app using ReactNative' },
+  { year: 2021, text: 'Work on various frontend project as well as mobile app using ReactNative' },
   {
     year: 2023,
-    text:
-      'Work on software development leveraging the ME(R/V)N stack and Python-based bioinformatics analysis',
+    text: 'Doing bioinformatics analysis using Python and web development with ME(R/V)N stack',
   },
 ]
