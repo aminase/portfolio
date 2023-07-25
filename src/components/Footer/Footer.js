@@ -25,7 +25,7 @@ const Footer = () => {
           </SocialIconsContainer>
         </LinkColumn>
       </LinkList>
-      <CopyRight>Copyright 2023 © All rights Reserved. aminase </CopyRight>
+      <CopyRight>@2023 aminase. All rights reserved</CopyRight>
     </FooterWrapper>
   )
 }
