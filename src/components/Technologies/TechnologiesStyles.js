@@ -86,9 +86,9 @@ export const ListTitle = styled.h4`
 `
 
 export const ListParagraph = styled.p`
-  font-size: 18px;
-  line-height: 30px;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 16px;

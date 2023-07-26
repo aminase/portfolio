@@ -59,8 +59,8 @@ const Timeline = () => {
       <br />
       <SectionTitle>About me</SectionTitle>
       <SectionText>
-        Software developer with over four years of experience in developing, testing, and
-        maintaining web applications.
+        {/* Software developer with over four years of experience in developing, testing, and
+        maintaining web applications. */}
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

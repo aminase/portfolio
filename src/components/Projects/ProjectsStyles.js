@@ -65,9 +65,8 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 10px 50px;
-  color: rgba(255, 255, 255, 0.5);
-  font-style: 2rem;
-  line-height: 24px;
+  color: white;
+  line-height: 22px;
   text-align: justify;
   @media ${props => props.theme.breakpoints.sm} {
     padding: 0.3rem;
@@ -83,10 +82,10 @@ export const UtilityList = styled.ul`
 `
 
 export const ExternalLinks = styled.a`
-  color: white;
+  color: black;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #d0bb57;
+  background: rgba(255, 255, 255, 0.75);
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
@@ -100,6 +99,6 @@ export const TagList = styled.ul`
   padding: 2rem;
 `
 export const Tag = styled.li`
-  color: #d8bfbf;
+  color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
 `
