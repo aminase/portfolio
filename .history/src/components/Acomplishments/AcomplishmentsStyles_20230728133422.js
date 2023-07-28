@@ -5,8 +5,7 @@ export const Boxes = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
-  margin: 24px 0 40px;
-
+  margin: 3rem 0;
   @media ${props => props.theme.breakpoints.md} {
     gap: 16px;
     margin: 20px 0 32px;
@@ -25,14 +24,14 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212d45;
   border-radius: 12px;
-  height: 144px;
+  height: 184px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
-    height: 210px;
+    height: 240px;
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
+    height: 175px;
     padding: 16px;
   }
 
@@ -85,7 +84,7 @@ export const BoxTextSmall = styled.p`
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 24px;
+  // line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
 
